@@ -18,6 +18,7 @@ public class Main {
 
         boolean result = equalSumChecker(a,b,c);
         System.out.println(result);
+        
     }
     public static boolean equalSumChecker(int a, int b, int c){
         int sum = a+b;
