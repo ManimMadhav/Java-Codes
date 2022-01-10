@@ -1,3 +1,5 @@
+//returning multiple outputs
+//by using arrays in Java
 
 public class methods{
     public static void main(String[] args){
