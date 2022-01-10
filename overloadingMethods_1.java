@@ -22,13 +22,10 @@ public class methods{
             return array;
         }
     }
-
     //now working on
     //method overloading
     public static double calcFeetAndInchesToCentimeters(double inches){
         double inchToCm = inches * 2.54d;
         return inchToCm; 
     }
-
-
 }
