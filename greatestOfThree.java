@@ -24,6 +24,5 @@ public class Test{
         if (c>=b && c>=a){
             System.out.println(c+" is the greatest.");
         }
-
     }
 }
