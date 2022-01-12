@@ -25,7 +25,6 @@ public class Test{
                 sum += i;
             }
         }
-        
         return sum;
     }
 }
