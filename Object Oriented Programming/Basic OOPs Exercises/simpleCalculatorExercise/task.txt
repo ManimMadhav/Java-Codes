@@ -1,1 +1,2 @@
 Create a simpleCalculator class and perform various operations such as addition, subtraction, multiplication and division.
+By using concepts of encapsulation.
