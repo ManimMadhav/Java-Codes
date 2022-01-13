@@ -1,5 +1,6 @@
 package com.company;
 
+//creating a class 
 public class simpleCalculator {
     private double firstNumber;
     private double secondNumber;
