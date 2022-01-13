@@ -1,4 +1,4 @@
-<h1>Best and simplest explaination for what classes and objects are:</h1>
+Best and simplest explaination for what classes and objects are:
 
 Think you self as the god. And you can do everything. Now you want to create an object in this new world. For example, human beings. However, before you create human, you have to design them first. And this design blueprint is the class in Java. Every human in this world have to follow this blueprint, or, has the feature written on this blueprint.
 
