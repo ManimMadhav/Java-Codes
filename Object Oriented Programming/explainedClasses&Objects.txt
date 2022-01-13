@@ -1,8 +1,12 @@
 Best and simplest explaination for what classes and objects are:
 
-Think you self as the god. And you can do everything. Now you want to create an object in this new world. For example, human beings. However, before you create human, you have to design them first. And this design blueprint is the class in Java. Every human in this world have to follow this blueprint, or, has the feature written on this blueprint.
+Think you self as the god. And you can do everything. Now you want to create an object in this new world. For example, human beings. 
+However, before you create human, you have to design them first. And this design blueprint is the class in Java. 
+Every human in this world have to follow this blueprint, or, has the feature written on this blueprint.
 
-In this blueprint, you define a lot of detailed things. For example, what do human have and what can they do? Human should have a name, a sex type (male or female), 1 head, 2 legs and 2 arms, etc. And they can walk, they can run, and some of them can even swim. They thing they have are what's called attributes or data fields. And what they can do are known as behavior or methods in Java. 
+In this blueprint, you define a lot of detailed things. For example, what do human have and what can they do? Human should have a name, a sex type (male or female), 
+1 head, 2 legs and 2 arms, etc. And they can walk, they can run, and some of them can even swim. 
+They thing they have are what's called attributes or data fields. And what they can do are known as behavior or methods in Java. 
 
 so you may define a class named Human in Java like this:
 
@@ -23,17 +27,25 @@ public class Human {
     }
 }
 
-Take this class for instance. If you use this class as the blueprint of Human, then every human would have 100 in HP, 100 in stamina when you create them. And besides, every human can run and sleep. Run will cost the stamina and sleep can recover the energy. However, this is just a blueprint. To create a human, you have to say something like:
+Take this class for instance. 
+If you use this class as the blueprint of Human, then every human would have 100 in HP, 100 in stamina when you create them. 
+And besides, every human can run and sleep. 
+Run will cost the stamina and sleep can recover the energy. However, this is just a blueprint. To create a human, you have to say something like:
 
 Human adam; 
 
-That's how you create a new object of Human. Notice here we did not use the constructor. Why do you -- the god, need the constructor? Since you only defined the default value of HP and stamina but name and sex, you have to use constructor to set these two value for every object using parameters:
+That's how you create a new object of Human. 
+Notice here we did not use the constructor. 
+Why do you -- the god, need the constructor? 
+Since you only defined the default value of HP and stamina but name and sex, you have to use constructor to set these two value for every object using parameters:
 
 Human eva = new Human("Eva", "Female"); 
 
 And this Human "Instance(or Object)" eva, got a name Eva, and she is a female. She can run and sleep, as you defined in the Human class.
 
-notice here "eva" isn't the name of this object, but a reference, a nickname. When you need to use this object, you have to use this nickname to cite it. But the actual name you set for this human is what you said in the constructor -- "Eva".
+notice here "eva" isn't the name of this object, but a reference, a nickname. 
+When you need to use this object, you have to use this nickname to cite it. 
+But the actual name you set for this human is what you said in the constructor -- "Eva".
 
 If you still have confusion, check The Java Tutorials:
 http://docs.oracle.com/javase/tutorial/java/concepts/class.html
