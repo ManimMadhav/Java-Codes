@@ -7,7 +7,6 @@ public class Test{
 
         System.out.println(sumOfFirstAndLastDigit(number));
         
-        
     }
 
     public static int sumOfFirstAndLastDigit(int num){
