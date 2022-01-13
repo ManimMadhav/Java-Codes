@@ -1,1 +1,1 @@
-
+Create various methods that use the person class, using encapsulation.
