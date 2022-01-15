@@ -9,7 +9,7 @@ public class Main {
         myObject.setAge(19);
 
         System.out.println("Name is "+myObject.getFullName("Manim","Madhav"));
-        System.out.println("Is the person a teen? "+ myObject.isTeen(19));
+        System.out.println("Is the person a teen? "+ myObject.isTeen(21));
 
     }
 }
