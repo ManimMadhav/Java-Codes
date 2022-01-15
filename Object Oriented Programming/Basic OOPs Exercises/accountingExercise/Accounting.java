@@ -1,4 +1,4 @@
-
+//class file
 package com.company;
 
 public class Accounting {
