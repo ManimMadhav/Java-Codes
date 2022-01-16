@@ -6,20 +6,13 @@ public class Accounting {
     private int balance;
     private String name;
     private int phoneNumber;
-
-    public void setAccountNumber(int accountNumber) {
+    
+    //constructor
+    public Accounting(int accountNumber, int balance, String name, int phoneNumber) {
         this.accountNumber = accountNumber;
-    }
-
-    public void setBalance(int balance){
         this.balance = balance;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-    public void setPhoneNumber(int phoneNumber){
         this.phoneNumber = phoneNumber;
+        this.name = name;
     }
 
     public int getAccountNumber(){
