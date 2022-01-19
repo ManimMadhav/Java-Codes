@@ -8,6 +8,5 @@ public class Main {
         Accounting myObject = new Accounting();
         System.out.println(myObject.depositFunds(500));
         System.out.println(myObject.withdrawFunds(300));
-
     }
 }
