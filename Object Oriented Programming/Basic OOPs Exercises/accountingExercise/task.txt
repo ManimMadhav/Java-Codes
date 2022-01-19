@@ -1,1 +1,1 @@
-Basic accounting exercise for OOPs, but use CONSTRUCTORS.
+Basic accounting exercise for OOPs, but using CONSTRUCTORS.
