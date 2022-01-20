@@ -1,1 +1,1 @@
-Get distance from origin (set in this case) using classes 
+Get distance of user input point from origin (set in this case) using classes & constructors.
