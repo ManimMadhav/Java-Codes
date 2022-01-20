@@ -1,1 +1,1 @@
-
+Get distance from origin (set in this case) using classes 
