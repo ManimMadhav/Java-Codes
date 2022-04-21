@@ -1,3 +1,5 @@
+//add two numbers and display to user using JavaFX
+
 package com.example.demo;
 
 import javafx.application.Application;
@@ -48,11 +50,3 @@ public class Main extends Application {
     }
 }
 
-//class Listener implements EventHandler<ActionEvent>{
-//    Listener(TextField tf1, TextField tf2){
-//        System.out.println(Integer.parseInt(tf1.getText())+ Integer.parseInt(tf2.getText()));
-//    }
-//    public void handle(ActionEvent actionEvent) {
-//        System.out.println("Working!");
-//    }
-//}
