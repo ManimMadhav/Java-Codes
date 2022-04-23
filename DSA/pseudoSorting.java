@@ -1,3 +1,9 @@
+//An array A of length N
+//is said to be pseudo-sorted if it can be made non-decreasing after performing the following operation at most once.
+//Choose an i such that 1≤i≤N−1 and swap Ai and Ai+1
+
+such that 1≤i≤N−1 and swap Ai and Ai+1
+
 package com.company;
 
 import java.util.Arrays;
